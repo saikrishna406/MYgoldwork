@@ -28,13 +28,13 @@ export default function Header() {
           <nav className="drop" aria-label="Menu">
             <a href="#how-it-works" onClick={closeMenu}>How it works</a>
             <a href="#features" onClick={closeMenu}>Features</a>
-            <a href="#demo" onClick={closeMenu}>Get a demo</a>
+            <a href="#demo" onClick={closeMenu}>Get a Try-on</a>
           </nav>
         </details>
         <nav aria-label="Main">
           <a href="#how-it-works">How it works</a>
           <a href="#features">Features</a>
-          <a href="#demo">Get a demo</a>
+          <a href="#demo">Get a Try-on</a>
         </nav>
         <a className="brand" href="#home" aria-label="My Gold Work, back to top">
           <span className="mark" aria-hidden="true" />
