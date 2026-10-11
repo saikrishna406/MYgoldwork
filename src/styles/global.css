@@ -220,7 +220,9 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--ink);outline-offset
 .foot .links a{display:flex;align-items:center;min-height:44px;font-size:16.5px}
 .foot .social a{gap:10px}
 .foot .social .ic{width:18px;height:18px;color:var(--maroon);stroke-width:1.6}
-.foot .end{margin-top:52px;padding-top:24px;border-top:1px solid var(--tint-line);font-size:14px;color:var(--ink2)}
+.foot .end{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-top:52px;padding-top:24px;border-top:1px solid var(--tint-line);font-size:14px;color:var(--ink2)}
+.foot .end a{color:inherit;font-weight:500;text-decoration:underline;text-underline-offset:3px;transition:color .15s}
+.foot .end a:hover{color:var(--maroon)}
 section{scroll-margin-top:92px}
 
 /* ---------- motion: hero loads in once, other sections fade up as you reach them ---------- */

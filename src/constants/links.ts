@@ -12,6 +12,7 @@ export const PRIVACY_POLICY_URL = 'https://my-gold-work.web.app/privacyPolicy.ht
 export const INSTAGRAM_URL = 'https://www.instagram.com/mygoldwork?stkn=cHY4emwzaWR5b3Ey&utm_source=qr';
 export const FACEBOOK_URL = 'https://www.facebook.com/share/1EyZjf8Yag/?mibextid=wwXIfr';
 export const YOUTUBE_INSTALL_VIDEO_URL = 'https://youtube.com/@mygoldwork?si=XHaFORKg8qe1AgA9';
+export const CREAT8RLABS_URL = 'https://www.creat8rlabs.site/';
 
 /**
  * Sends iPhone/iPad visitors to the App Store and everyone else (Android, desktop, unrecognized)
