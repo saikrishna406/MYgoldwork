@@ -40,7 +40,7 @@ export default function Header() {
           <span className="mark" aria-hidden="true" />
           <span><b>My Gold Work</b><small>The Jewellery app of India</small></span>
         </a>
-        <div className="cta-r"><a className="call" href={TEL_URL} aria-label="Call us"><Icon name="phone" /></a><a className="btn btn-gold btn-sm" href={getAppStoreLink()} target="_blank" rel="noopener">Get the app</a></div>
+        <div className="cta-r"><a className="call" href={TEL_URL} aria-label="Call us"><Icon name="phone" /></a><a className="btn btn-gold btn-sm" href={getAppStoreLink()} target="_blank" rel="noopener">Get a free trial</a></div>
       </div>
     </header>
   </>;
