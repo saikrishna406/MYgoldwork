@@ -16,7 +16,7 @@ export const CREAT8RLABS_URL = 'https://www.creat8rlabs.site/';
 
 /**
  * Sends iPhone/iPad visitors to the App Store and everyone else (Android, desktop, unrecognized)
- * to Google Play. Use this instead of the raw *_URL constants for any "Get a Free Trail" link.
+ * to Google Play. Use this instead of the raw *_URL constants for any "Get A FREE TRIAL" link.
  */
 export function getAppStoreLink(): string {
   if (typeof navigator === 'undefined') return GOOGLE_PLAY_URL;
